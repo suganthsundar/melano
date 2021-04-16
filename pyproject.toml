@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "melano"
+version = "0.1.0"
+description = "JSON utility"
+authors = ["Suganthan Sundararaju <suganthsundar@gmail.com>"]
+keywords = ["json", "diff", "utils"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/suganthsundar/melano"
+repository = "https://github.com/suganthsundar/melano"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rich = "^10.1.0"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+nose = "^1.3.7"
+
+[tool.poetry.scripts]
+melano = "melano.cli:melano"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
