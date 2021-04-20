@@ -2,6 +2,12 @@
 
 `melano` is JSON utility library
 
+## installation
+
+```
+pip install melano
+```
+
 ## features
 ### dict compare
 
